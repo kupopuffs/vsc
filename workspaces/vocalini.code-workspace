@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "../../ws-git/Vocalini/speechFace"
+		},
+		{
+			"path": "../../ws-git/Vocalini/speechBrain"
+		},
+		{
+			"path": "../../ws-git/Vocalini/temp"
+		},
+		{
+			"path": "Y:/workspace/speechMobile"
+		},
+		{
+			"path": "Y:/workspace/temp"
+		},
+		{
+			"path": "Y:/workspace/awesomeproject"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true,
+		"favorites.sortDirection": "DESC"
+	}
+}

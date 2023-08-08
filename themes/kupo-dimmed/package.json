@@ -1,0 +1,21 @@
+{
+  "name": "kupo-dimmed",
+  "displayName": "kupo-dimmed",
+  "description": "yes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "kupo dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kupo dimmed-color-theme.json"
+      }
+    ]
+  }
+}

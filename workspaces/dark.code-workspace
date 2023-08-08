@@ -1,0 +1,49 @@
+{
+    "folders": [],
+    "settings": {
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation",
+                        "storage",
+                        "comment",
+                        "source",
+                        "meta",
+                        "string",
+                        "storage.type.function"
+                    ],
+                    "settings": {
+                        "foreground": "#677ab6"
+                    },
+                },
+            ]
+        },
+        "window.menuBarVisibility": "toggle",
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.colorCustomizations": {
+            "editor.background": "#0c0c0c",
+            // "editor.findMatchBackground": "#0c0c0c",
+            "editorGroupHeader.tabsBackground": "#0c0c0c",
+            "editorHoverWidget.background": "#0c0c0c",
+            "editorHoverWidget.foreground": "#383838",
+            "editorPane.background": "#0c0c0c",
+            "editorWidget.background": "#0c0c0c",
+            "editorWidget.foreground": "#a7a0a0",
+            "menu.background": "#0c0c0c",
+            "minimap.errorHighlight": "#ff0000",
+            "scrollbarSlider.background": "#0c0c0c",
+            //"searchEditor.findMatchBackground": "#0c0c0c",
+            "statusBar.background": "#0c0c0c",
+            "tab.activeBackground": "#0c0c0c",
+            "tab.activeBorder": "#0c0c0c",
+            "tab.border": "#0c0c0c",
+            "tab.inactiveBackground": "#0c0c0c",
+            "titleBar.activeBackground": "#0c0c0c",
+            "titleBar.inactiveBackground": "#0c0c0c",
+            "window.activeBorder": "#0c0c0c",
+            "window.inactiveBorder": "#0c0c0c",
+        },
+    
+    }
+}

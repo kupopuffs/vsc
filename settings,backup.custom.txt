@@ -1,0 +1,207 @@
+    "vscode-json-editor.theme": "dark",
+    // "multiCommand.commands": [
+    //     {
+    //         "command": "myCommand.openSettings.UI",
+    //         "label": "openSettings UI",
+    //         "description": "Open Settings UI",
+    //         "sequence": [
+    //             "workbench.action.openSettings"
+    //         ],
+    //     },
+    //     {
+    //         "command": "myCommand.openSettings.JSON",
+    //         "label": "openSettings JSON",
+    //         "description": "Open Settings JSON",
+    //         "sequence": [
+    //             // "workbench.action.openSettingsJson"
+    //             {
+    //                 "command": "settings.switchToJSON",
+    //                 "onFail": [
+    //                     "myCommand.openSettings.JSON"
+    //                 ]
+    //             }
+    //         ],
+    //     },
+    //     {
+    //         "command": "myCommand.openSettings",
+    //         "label": "openSettings",
+    //         "description": "Open Settings",
+    //         "sequence": [
+    //             {
+    //                 "command": "myCommand.openSettings.JSON",
+    //                 "onFail": [
+    //                     "myCommand.openSettings.UI"
+    //                 ]
+    //             }
+    //             // "settings.switchToJSON || workbench.action.openSettingsJson && workbench.action.openSettings2"
+    //         ]
+    //     },
+    // ],
+    // "CustomizeToolbar.buttonConfig": [
+    //     {
+    //         "name": "Blank",
+    //         "icon": "blank",
+    //     },
+    //     {
+    //         "name": "Open recent",
+    //         "icon": "folder-active",
+    //         "command_vscode": "workbench.action.openRecent"
+    //     },
+    //     {
+    //         "name": "Favorites",
+    //         "icon": "star-full",
+    //         "command_vscode": "workbench.action.toggleSidebarVisibility"
+    //     },
+    //     // {
+    //     //     "name": "Settings",
+    //     //     "icon": "settings-gear",
+    //     //     "command_vscode": "workbench.action.openSettings"
+    //     // },
+    //     // {
+    //     //     "name": "Dev Tools",
+    //     //     "icon": "terminal-tmux",
+    //     //     "command_vscode": "command.workbench.action.toggleDevTools"
+    //     // },
+    // ],
+    // "CustomizeToolbar.buttonConfig.inactive": [],
+    "activitusbar.activeColour": "#ffffff",
+    // "activitusbar.combineWorkspaceSettings": true,
+    "activitusbar.inactiveColour": "#454545",
+    "activitusbar.showSourceControlCounter": true,
+    "activitusbar.views": [
+        {
+            "tooltip": "Explorer",
+            // "name": "settings",
+            "name": "explorer",
+            "codicon": "list-flat",
+        },
+        {
+            "tooltip": "Settings",
+            // "name": "settings",
+            "name": "settings",
+            "codicon": "settings-gear",
+        },
+        {
+            "tooltip": "Settings",
+            // "name": "settings",
+            "name": "settings",
+            "codicon": "settings-gear",
+        },
+
+        // {
+        //     "tooltip": "Settings JSON",
+        //     "name": "command.myCommand.openSettings",
+        //     "codicon": "json",
+        // },
+        // {
+        //     "codicon": "blank"
+        // },
+        {
+            "name": "extensions",
+            "codicon": "extensions",
+            "tooltip": "Extensions"
+        },
+        {
+            "tooltip": "Dev Tools",
+            "name": "command.workbench.action.toggleDevTools",
+            "codicon": "terminal-tmux",
+        },
+        // {
+        //     "codicon": "blank"
+        // },
+        // {
+        //     "tooltip": "Open recent",
+        //     "name": "command.workbench.action.openRecent",
+        //     "codicon": "folder-active",
+        // },
+        // {
+        //     "codicon": "blank"
+        // },
+        {
+            "tooltip": "Update CSS",
+            "name": "command.extension.updateCustomCSS",
+            "codicon": "history",
+        },
+    ],
+
+
+    "workbench.colorCustomizations": {
+        // "editor.background": "#0c0c0c",
+        // // "editor.findMatchBackground": "#0c0c0c",
+        // "editorGroupHeader.tabsBackground": "#0c0c0c",
+        // "editorHoverWidget.background": "#0c0c0c",
+        // "editorHoverWidget.foreground": "#383838",
+        // "editorPane.background": "#0c0c0c",
+        // "editorWidget.background": "#0c0c0c",
+        // "editorWidget.foreground": "#a7a0a0",
+        // "menu.background": "#0c0c0c",
+        // "minimap.errorHighlight": "#ff0000",
+        // "scrollbarSlider.background": "#0c0c0c",
+        // //"searchEditor.findMatchBackground": "#0c0c0c",
+        // "statusBar.background": "#0c0c0c",
+        // "tab.activeBackground": "#0c0c0c",
+        // "tab.activeBorder": "#0c0c0c",
+        // "tab.border": "#0c0c0c",
+        // "tab.inactiveBackground": "#0c0c0c",
+        // "titleBar.activeBackground": "#0c0c0c",
+        // "titleBar.inactiveBackground": "#0c0c0c",
+        // "window.activeBorder": "#0c0c0c",
+        // "window.inactiveBorder": "#0c0c0c",
+
+                // Titlebar/Window: Background, Border
+                "window.activeBorder": "#0c0c0c",
+                "window.inactiveBorder": "#0c0c0c",
+                "editor.background": "#0c0c0c",
+                "editorPane.background": "#0c0c0c",
+                // "editorGroup.border": "#ff0000",
+                "editorWidget.border": "#ff0000",
+                "titleBar.activeBackground": "#0c0c0c",
+                "titleBar.inactiveBackground": "#0c0c0c",
+                //// Editor-Sidebar: Text/Background
+                "sideBar.background": "#151515",
+                "sideBar.border": "#151515",
+                //// Editor-Widget: Text/Background (Search thingy)
+                "editorWidget.foreground": "#a7a0a0",
+                "editorWidget.resizeBorder": "#161616",
+                "editorWidget.background": "#0c0c0c",
+                "editorHoverWidget.border": "#1d1d1d",
+                // "editorHoverWidget.background": "#0c0c0c",
+                // "editor.findMatchBackground": "#0c0c0c",
+                // "searchEditor.findMatchBackground": "#0c0c0c",
+                //// Editor-General: Text/Background
+                "minimap.errorHighlight": "#ff0000",
+                "breadcrumb.background": "#0c0c0c",
+                "breadcrumb.foreground": "#7c7c7c",
+                "menu.background": "#0c0c0c",
+                // "scrollbarSlider.background": "#0c0c0c",
+                "statusBar.background": "#0c0c0c",
+                "statusBar.noFolderBackground": "#0c0c0c",
+                // "statusBar.border": "#a7a0a049",
+                // "statusBar.focusBorder": "#0c0c0c",
+                // "editorPane.background": "#ff0000",
+                // Editor-Tabs
+                //// Editor-Tabs: Text
+                "tab.activeForeground": "#ffffff",
+                "tab.inactiveForeground": "#7c7c7c",
+                "list.warningForeground": "#ffd000",
+                "list.errorForeground": "#7c7c7c",
+                //// Editor-Tabs: Background
+                "tab.activeBackground": "#151515",
+                "tab.inactiveBackground": "#0c0c0c",
+                "editorGroupHeader.tabsBackground": "#0c0c0c",
+                //// Editor-Tabs: Borders
+                "tab.border": "#0c0c0c",
+                "tab.activeBorder": "#0c0c0c",
+                "editorOverviewRuler.modifiedForeground": "#ff0000",
+                // "tab.activeBorderTop": "#ffffff77",
+                "editorGroup.focusedEmptyBorder": "#0c0c0c",
+                "editorGroupHeader.border": "#0c0c0c",
+                "editorGroupHeader.tabsBorder": "#0c0c0c",
+                "tab.lastPinnedBorder": "#414141",
+                /////// Editor-Tabs: Modified
+                "tab.inactiveModifiedBorder": "#0c0c0c",
+                "tab.activeModifiedBorder": "#0c0c0c",
+                // "tab.unfocusedInactiveModifiedBorder": "#ffd90070",
+                // "tab.unfocusedActiveModifiedBorder": "#ffd90070",
+        
+    },
