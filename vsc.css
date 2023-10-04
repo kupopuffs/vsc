@@ -4,18 +4,18 @@
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
-    height: 26px;
-    line-height: 26px;
+    height: 26px !important;;
+    line-height: 26px !important;;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
-    height: 26px;
-    line-height: 26px;
+    height: 26px !important;
+    line-height: 26px !important;;
 }
 
-.tabs-and-actions-container {
-    /* height: 26px; */
-}
+/* .tabs-and-actions-container {
+    height: 26px !important;
+} */
 
 /* windows icons */
 .window-appicon {
@@ -64,4 +64,18 @@
 /* tab fade */
 .tab {
     -webkit-mask: linear-gradient(-90deg, rgba(0,0,0,0) 5%, rgba(0,0,0,1) 33%);
+}
+
+/** Extension */
+.extension-list-item {
+    padding: 0 0 0 8px important!
+}
+
+
+/**
+ StatusBar
+*/
+
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item {
+    color: rgb(70 82 82) !important;
 }
